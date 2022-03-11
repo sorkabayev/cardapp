@@ -138,9 +138,9 @@ class _CardsPageState extends State<CardsPage> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
 
-                                      Image.asset('assets/images/grey_image.jpg', height: 35, width: 60, fit: BoxFit.cover,),
+                                      const Text("VISA",style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),),
 
-                                      const Text("VISA",style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),)
+                                      Container(child: Image.asset('asset/image/gr.jpg', height: 35, width: 50, fit: BoxFit.cover,))
 
                                     ],
                                   ),
